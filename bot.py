@@ -20,7 +20,7 @@ def unknown(bot, update):
 
 if __name__ == '__main__':
     cb = cleverbot.Cleverbot('CC62ho-5twjh0shkV6pqs85zvoA')
-    updater = Updater(token='507116692:AAGuwU6BodOoTdGh6hhykFVhIvJmrdHrcB8') #OsmanITBot
+    updater = Updater(token='506075389:AAHhc04sGoAwXS97dQjx53oi3_OsyIyaAqw') #EESTECistBot
     dispatcher = updater.dispatcher
 
     start_handler = CommandHandler("start", start)
